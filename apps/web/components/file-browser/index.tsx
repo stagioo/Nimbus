@@ -14,6 +14,7 @@ import { FilePreview } from "@/components/file-browser/file-preview";
 import { FileTabs } from "@/components/file-browser/file-tabs";
 
 export function FileBrowser() {
+	console.log("he");
 	const searchParams = useSearchParams();
 	const type = searchParams.get("type");
 	const id = searchParams.get("id");

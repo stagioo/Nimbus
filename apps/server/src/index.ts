@@ -18,7 +18,7 @@ app.use(
 // Health check
 app.get("/kamehame", c => c.text("HAAAAAAAAAAAAAA"));
 
-app.route("/files", filesRoutes);
+app.route("/ç", filesRoutes);
 app.route("/api/auth", authRoutes);
 app.route("/waitlist", waitlistRoutes);
 
